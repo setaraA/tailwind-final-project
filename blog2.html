@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>گل فروش</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class=" bg-sky-50">
+     <header class="flex sticky top-0 z-50 bg-surface/80 backdrop-blur items-center justify-between min-w-lvh bg-pink-50/15 px-10 p-5 sm:">
+         <div class=" flex items-center gap-2">
+            <img src="./images/image.ico" class="w-9">
+            <span class="text-green-800 font-bold text-xl">گل فروش</span>  
+        </div>
+         <nav>
+            <ul class="flex items-center gap-10 text-gray-900 font-semibold  text-sm lg:flex">
+                <li><a href="index.html" class="hover:text-green-800">صفحه اصلی</a></li>
+                <li><a href="#" class="hover:text-green-800">محصولات</a></li>
+                <li><a href="blog.html" class="hover:text-green-800">وبلاگ</a></li>
+                <li><a href="#" class="hover:text-green-800">درباره ما</a></li>
+                <li><a href="#" class="hover:text-green-800">تماس با ما</a></li>
+                <li><a href="#" class="hover:text-green-800">گیاهان تخفیف خورده</a></li>
+            </ul>
+        </nav>
+        <div class=" flex items-cneter gap-10 flex-row-reverse sm:none">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-5 h-5" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 
+            </a>
+            <a href="#" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag w-5 h-5" aria-hidden="true"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg></a>
+            <a href="/wishlist">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-5 h-5" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search w-5 h-5" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+            </a>
+        </div>
+
+        
+
+       
+    </header>
+    <div class="px-20 mt-10 sm:px-5">
+        <div class="border border-gray-200 bg-white p-10  rounded-2xl shadow-lg shadow-white/80 space-y-3 sm:px-5">
+            <h1 class="font-bold text-3xl">مجله گل فروش</h1>
+            <p class="font-bold text-sm text-gray-500">نکات نگهداری، ایده‌های دیزاین و معرفی گل‌ها — هر هفته با مقاله‌های جدید.</p>
+            <div class=" border border-gray-200 py-2 px-5 rounded-xl">
+                <input type="text" class="w-100 text-sm font-bold" name="search" placeholder="جستجو در عنوان و متن مقاله...">
+            </div>
+            <div class="flex justify-between sm:flex-wrap sm:gap-2">
+                <div>
+                    <div class="inline-flex items-center border border-gray-200 px-6 py-3 rounded-xl text-sm font-bold hover:bg-gray-300/20 cursor-default">جدیدترین</div>
+                    <div  class="inline-flex items-center border border-gray-200 px-6 py-3 rounded-xl font-bold text-sm text-gray-700 hover:bg-gray-300/20 cursor-default">فقط دارای کاور</div>
+                    <div  class="inline-flex items-center border border-gray-200 px-6 py-3 rounded-xl font-bold text-gray-700 text-sm hover:bg-gray-300/20 cursor-default">مقالات بلند (5+دقیقه)</div>
+                </div>
+                <div calss="gap-4 flex">
+                    <div class="bg-emerald-600 inline-flex items-center p-2 text-white font-bold rounded-lg hover:bg-emerald-600/90 cursor-default text-[14px]">اعمال فیلتر</div>
+                    <div class="border border-gray-200 text-[14px] inline-flex p-2 text-gray-700 font-bold rounded-lg hover:bg-gray-300/20 cursor-default">پاک کردن</div>
+                </div>
+            </div>
+            <span class="font-semibold text-gray-600 text-xs ">20 نتیجه یافت شد</span>
+        </div>
+
+         <div class=" border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-xl overflow-hidden my-5 group relative col-span-3 lg:hidden sm:visible sm:w-full">
+                <img src="./images/cover (6).webp"  class="w-full h-90 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-lg">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-lg">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-lg pb-2 hover:text-green-800 cursor-pointer">گل شیپوری(Calla Lily)</span>
+                    <p class="text-gray-700 font-semibold text-sm">گل شیپوری با نام علمی Zantedeschia aethiopica از خانواده Araceae است. این گل به دلیل شکل خاص گل‌آذینش (به صورت شیپور یا بوق) و رنگ‌های متنوع (سفید، زرد، صورتی، بنفش) در سراسر جهان محبوب است. در ایران هم به‌عنوان گیاه زینتی در گلدان و باغچه …</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-xs ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-md">•••</span>
+                    </div>
+                </div>
+            </div>
+        <div  class="grid grid-cols-12 gap-5 py-5">
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (7).webp"  class="lg:w-75 lg:h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-[15px] pb-2 hover:text-green-800 cursor-pointer">گل اقاقیا(Acacia/Rpbinia)</span>
+                    <p class="text-gray-700 font-semibold text-sm">واژه «اقاقیا» در فارسی برای دو گیاه به‌کار می‌رود: آکاسیا (Acacia) از خانواده پروانه‌واران (Fabaceae) که در مناطق...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (8).webp"  class="lg:w-75 lg:h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-[15px] pb-2 hover:text-green-800 cursor-pointer">گل بابونه(Chamomile)</span>
+                    <p class="text-gray-700 font-semibold text-sm">ل بابونه با نام علمی Matricaria chamomilla (بابونه آلمانی) و Anthemis nobilis (بابونه رومی) یکی از...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (9).webp"  class="w-75 h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-md pb-2 hover:text-green-800 cursor-pointer">گل داوودی(Chrysanthemum)</span>
+                    <p class="text-gray-700 font-semibold text-sm">گل داوودی با نام علمی Chrysanthemum یکی از محبوب‌ترین گل‌های زینتی دنیاست که به دلیل تنوع رنگ، فرم و ماندگاری...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (10).webp"  class="w-75 h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-md pb-2 hover:text-green-800 cursor-pointer">گل زنبق(Iris)</span>
+                    <p class="text-gray-700 font-semibold text-sm">گل زنبق با نام علمی Iris یکی از زیباترین و کهن‌ترین گل‌های زینتی جهان است. این گیاه از خانواده Iridaceae بوده و بیش از ۲۰۰ گونه...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (11).webp"  class="w-75 h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-md pb-2 hover:text-green-800 cursor-pointer">گل گلایول(Gladiolus)</span>
+                    <p class="text-gray-700 font-semibold text-sm">گل گلایول با نام علمی Gladiolus از خانواده زنبقیان (Iridaceae) است. این گل بومی آفریقاست و امروزه در سراسر دنیا به عنوان...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (12).webp"  class="w-75 h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-md pb-2 hover:text-green-800 cursor-pointer">گل کاغذی(Bougainvilea)</span>
+                    <p class="text-gray-700 font-semibold text-sm">ل کاغذی با نام علمی Bougainvillea از خانواده‌ی Nyctaginaceae است. این گیاه بومی آمریکای جنوبی است و به دلیل...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (13).webp"  class="w-75 h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-md pb-2 hover:text-green-800 cursor-pointer">گل پیچک(Morning Glory/Ivy)</span>
+                    <p class="text-gray-700 font-semibold text-sm">ام "پیچک" در فارسی برای چند گیاه استفاده می‌شود: پیچک نیلوفر صبحدم (Morning Glory – Ipomoea) : گیاهی رونده با گل‌ها...</p>
+                    <div class="flex justify-between">
+                        <a href="#" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:w-75 border border-gray-200 shadow-lg shadow-gray-300 bg-white rounded-2xl overflow-hidden my-5 group relative lg:col-span-3 sm:col-span-6">
+                <img src="./images/cover (14).webp"  class="w-75 h-50 group-hover:scale-[1.03] transition-transform duratin-500">
+                <div class="relative">
+                    <span class="bg-white/90 absolute bottom-5 right-5  text-xs text-gray-700 font-semibold p-1 rounded-2xl">1404/6/1</span>
+                    <span  class="bg-white/90 absolute bottom-5 right-20 text-xs text-gray-700 font-semibold p-1 rounded-2xl">2 دقیقه</span>
+                </div>
+                <div class="px-5 space-y-3 py-5">
+                    <span class="font-bold text-md pb-2 hover:text-green-800 cursor-pointer">گل پونه(Mentha Pulegium)</span>
+                    <p class="text-gray-700 font-semibold text-sm">پونه گیاهی معطر و دارویی از خانواده نعنائیان (Lamiaceae) است. در فارسی بیشتر با نام پونه یا پونه کوهی شناخته می‌شود. این...</p>
+                    <div class="flex justify-between">
+                        <a href="./datails/rose.html" class="text-green-800 text-sm ">مطالعه
+                            <span  >↗</span>
+                        </a>
+                        <span class=" text-slate-400 text-xl">•••</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <section>
+        <div class="flex items-center justify-between px-20 border-b border-b-gray-300 pb-10 sm:grid sm:grid-cols-12 lg:flex ">
+            <div class="inline-flex jsutify-center items-center flex-col sm:col-span-6 ">
+                <div class="text-amber-300 border border-gray-300 inline-flex  p-3 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck w-6 h-6" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                </div>
+                <div class="font-bold text-sm">
+                    ارسال به شهر هرات
+                </div>
+                <div class="font-semibold text-gray-700 text-[13px]">
+                    در کمتر از سه ساعت از ما گیاه تحویل بگیرید!
+                </div>
+            </div>
+            <div class="inline-flex jsutify-center items-center flex-col sm:col-span-6">
+                <div class="text-amber-300 border border-gray-300 inline-flex p-3 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alarm-clock w-6 h-6" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2 2"></path><path d="M5 3 2 6"></path><path d="m22 6-3-3"></path><path d="M6.38 18.7 4 21"></path><path d="M17.64 18.67 20 21"></path></svg>
+                </div>
+                <div class="text-sm font-bold">
+                    زمان و نحوه دریافت گیاه
+                </div>
+                <div class="font-semibold text-gray-700 text-[13px]">
+                    ارسال از 9 تا 19 در شهر هرات
+                </div>
+            </div>
+            <div class="inline-flex jsutify-center items-center flex-col sm:col-span-6">
+                <div class="text-amber-300 border border-gray-300 inline-flex p-3 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headset w-6 h-6" aria-hidden="true"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"></path><path d="M21 16v2a4 4 0 0 1-4 4h-5"></path></svg>
+                </div>
+                <div class="font-bold text-sm">
+                    پشتیبانی همیشه گی از گیاه
+                </div>
+                <div class="font-semibold text-gray-700 text-[13px]">
+                    آموزش نگهداری و تکثیر گیاهان اپارتمانی
+                </div>
+            </div>
+            <div class="inline-flex jsutify-center items-center flex-col sm:col-span-6">
+                <div class="text-amber-300 border border-gray-300 inline-flex p-3 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check w-6 h-6" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                </div>
+                <div  class="font-bold text-sm">
+                    ضمانت تحویل سالم گیاه
+                </div>
+                <div class="font-semibold text-gray-700 text-[13px] ">
+                    بازگشت وجه در صورت اسیب گیاه
+                  </div>
+            </div>
+        </div>
+        <div class="flex justify-between border-b border-b-gray-200 sm:grid sm:grid-cols-12 sm:px-3 lg:flex lg:px-20">
+            <div class="space-y-3 bg-gray-200/80 inline-flex flex-col items-center px-7 p-10 rounded-xl my-10 sm:col-span-12 sm:w-full lg:w-70  ">
+                <h3 class="font-bold text-md ml-17">همیشه اولین نفر باش!</h3>
+                <p class="font-semibold text-gray-700 text-sm">برای اطلاع از آخرین تخفیف‌ها شماره تماست رو وارد کن.</p>
+                <div class="inline-flex items-center gap-2 border border-gray-400 px-5 py-2 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone w-4 h-4 text-gray-500" aria-hidden="true"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384 "></path></svg>
+                    <input  class=" border-none focus:ouline-none text-sm" type="tel" name="phone-num" placeholder="شماره تماس خودرا وارد کنید">
+                </div>
+                <div class="bg-emerald-700 w-57 items-center justify-center px-25 py-2 rounded-lg text-white font-semibold text-sm ">
+                    <button>ارسال</button>
+                </div>
+            </div>
+            <div class="px-5 py-10 space-y-4 col-span-4 "> 
+                <h3 class="text-green-800 font-bold text-md">محصولات جدید </h3>
+                <ul class="space-y-2">
+                    <li class="font-bold text-sm hover:text-green-800 cursor-pointer">لاله</li>
+                    <li class="font-bold text-sm hover:text-green-800 cursor-pointer">مریم</li>
+                    <li class="font-bold text-sm hover:text-green-800 cursor-pointer">یاس</li>
+                    <li class="font-bold text-sm hover:text-green-800 cursor-pointer">آفتاب گردان</li>
+                </ul>
+            </div>
+            <div  class="px-5 py-10 space-y-4 col-span-4">
+                <h3 class="text-green-800 font-bold text-md">خدمات مشتریان</h3>
+                <ul class="space-y-2">
+                    <li  class="font-bold text-sm hover:text-green-800 cursor-pointer">نحوه ثبت سفارش</li>
+                    <li  class="font-bold text-sm hover:text-green-800 cursor-pointer">شیوه های پرداخت</li>
+                    <li  class="font-bold text-sm hover:text-green-800 cursor-pointer">رویه ارسال سفارش</li>
+                    <li  class="font-bold text-sm hover:text-green-800 cursor-pointer">نحوه بسته بندی گیاه</li>
+                    <li  class="font-bold text-sm hover:text-green-800 cursor-pointer">نمونه سفارشات ارسال شده</li>
+                </ul>
+            </div>
+            
+            <div class="px-5 py-10 space-y-4 col-span-4">
+                <h3 class="text-green-800 font-bold text-md">مجله گل فروش</h3>
+                <ul class="space-y-2">
+                    <li  class="font-bold text-sm hover:text-sky-700 cursor-pointer">گل مریم(Polianthes Tuberosa)</li>
+                    <li  class="font-bold text-sm hover:text-sky-700 cursor-pointer">گل میخک(carnation)</li>
+                    <li  class="font-bold text-sm hover:text-sky-700 cursor-pointer">کل نرگس(Narcissus)</li>
+                    <li  class="font-bold text-sm hover:text-sky-700 cursor-pointer">گل یاس(Jasmine)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="py-10 justify-center flex items-center text-green-800 font-bold text-sm">
+            منتظر سفارشات زیبا و رنگارنگ شما هستیم
+        </div>
+        </section>
+        <section class="relative flex justify-between items-center px-20 ">
+
+            <button  class="bg-green-800 p-5 text-white iline-flex items-center rounded-lg cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-5 h-5" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
+                </button>
+                <button  class="bg-green-800 p-5 text-white iline-flex items-center rounded-lg cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up w-5 h-5" aria-hidden="true"><path d="m5 12 7-7 7 7"></path><path d="M12 19V5"></path></svg>
+                </button>
+            
+        </section>
+    </div>
+</body>
+</html>
