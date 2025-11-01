@@ -13,7 +13,7 @@
             <span class="text-green-800 font-bold text-xl">گل فروش</span>  
         </div>
          <nav>
-            <ul class="flex items-center gap-10 text-gray-900 font-semibold  text-sm lg:flex">
+            <ul class="flex items-center gap-10 text-gray-900 font-semibold  text-sm lg:flex sm:hidden">
                 <li><a href="../index.html" class="hover:text-green-800">صفحه اصلی</a></li>
                 <li><a href="#" class="hover:text-green-800">محصولات</a></li>
                 <li><a href="../blog.html" class="hover:text-green-800">وبلاگ</a></li>
@@ -36,8 +36,8 @@
             </a>
         </div>
     </header>
-    <button class= " sticky right-300 top-105 bg-emerald-700  py-2 px-3 rounded-lg ">صفحه قبل</button>
-    <section class="sticky right-5 left-5 top-125 z-50 flex justify-between items-center px-20 ">
+    <button class= " sticky right-300 top-105 bg-emerald-700  py-2 px-3 rounded-lg sm:top-100">صفحه قبل</button>
+    <section class="sticky right-5 left-5 top-125 z-50 flex justify-between items-center px-20 sm:top-120 ">
         <button  class="bg-emerald-700  p-5 text-white inline-flex items-center rounded-lg cursor-pointer">
             <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-4 h-4" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg></a>
         </button>
@@ -157,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="space-y-5 p-5 overflow-hidden">
+            <div class="space-y-5 p-5 overflow-hidden lg:block sm:hidden">
                 <h4 class="font-bold text-md text-gray-600">آخرین مطالب</h4>
                 <div class="flex flex-col gap-3">
                     <a href="narcissus.html">
@@ -322,5 +322,17 @@
                 منتظر سفارشات زیبا و رنگارنگ شما هستیم
             </div>
         </section>
+         <div class="bg-emerald-600 justify-center sticky bottom-0 w-full mt-20   ">
+        <nav>
+            <ul class="flex items-center gap-10  font-semibold justify-between text-sm  lg:hidden sm:flex sm:gap-5 sm:px-5 sm:py-5 text-white">
+                <li><a href="index.html" class="hover:text-green-800">صفحه اصلی</a></li>
+                <li><a href="#" class="hover:text-green-800">محصولات</a></li>
+                <li><a href="blog.html" class="hover:text-green-800">وبلاگ</a></li>
+                <li><a href="#" class="hover:text-green-800">درباره ما</a></li>
+                <li><a href="#" class="hover:text-green-800">تماس با ما</a></li>
+                <li><a href="#" class="hover:text-green-800">گیاهان تخفیف خورده</a></li>
+            </ul>
+        </nav>
+    </div> 
 </body>
 </html>
